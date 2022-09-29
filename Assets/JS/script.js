@@ -21,6 +21,19 @@ function writePassword() {
   passwordText.value = password;
 
 }
+//input variables
+var confirmLowerCase;
+var confirmUpperCase;
+var confirmNumbers;
+var confirmCharacters;
+var passwordLength = 0;
+
+//saves generated password
+var result = "";
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
+
+//function to generate a new password
+function generatePassword(){
+
