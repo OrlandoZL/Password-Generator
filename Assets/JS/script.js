@@ -37,3 +37,23 @@ generateBtn.addEventListener("click", writePassword);
 //function to generate a new password
 function generatePassword(){
 
+// asks for password length
+while (passwordLength < 8 || passwordLength > 128) {
+  passwordLength = prompt("How many characters do you want your password to be? \nBetween 8 and 128 characters");
+
+//if you press cancel
+if (passwordLength === null) {
+  return "Your secure password";
+}
+else {
+  //checks if password is between 8-128
+  if (passwordLength < 8|| passwordLength > 128){
+    alert("Must be between 8 and 128 characters.");
+    return "Your secure password";
+  }
+
+}
+
+}
+
+}
