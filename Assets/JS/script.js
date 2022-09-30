@@ -42,7 +42,8 @@ var confirmLowerCase = window.confirm("Would you like lowercase letters in your 
 var confirmUpperCase = window.confirm("Would you like uppercase letters in your password?")
 var confirmNumbers = window.confirm("Would you like numbers in your password?")
 var confirmCharacter = window.confirm("Would you like special characters in your password?")
-while (confirmLowerCase === true)
+
+}
 
 //saves generated password
 var finalresult = "";
@@ -54,4 +55,4 @@ function writePassword() {
 
   passwordText.value = password;
 
-}}
+}
