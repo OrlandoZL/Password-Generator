@@ -6,4 +6,4 @@ First I made an array of all the characters that would be used in making the pas
 
 ## Link
 
-[Link to deployed webpage]()
+[Link to deployed webpage](https://orlandozl.github.io/Password-Generator/)
